@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "user",
+    "slug": "user",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/Mainlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F8F8FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dileep9392.user"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d8798213-6325-4081-a4be-a24c10a4ff39"
+      }
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#0F123F",
+      "translucent": false
+    }
+  }
+}
